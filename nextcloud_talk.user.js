@@ -3,6 +3,7 @@
 // @description Better nextcloud talk user interface for group calling, copying skype
 // @version  1.3
 // @author Mircea Mihalea
+// @license MIT
 // @namespace ro.mihalea.talk
 // @grant    none
 // @require       http://code.jquery.com/jquery-3.3.1.min.js
