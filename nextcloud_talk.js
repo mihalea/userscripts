@@ -2,7 +2,6 @@
 // @name     Nextcloud Talk - Better call layout
 // @description Better nextcloud talk user interface for group calling, copying skype
 // @version  1.3
-// @license MIT
 // @author Mircea Mihalea
 // @namespace ro.mihalea.talk
 // @grant    none
