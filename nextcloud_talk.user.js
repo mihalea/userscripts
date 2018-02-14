@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Nextcloud Talk - Better call layout
 // @description Better nextcloud talk user interface for group calling, copying skype
-// @version  1.5.1
+// @version  1.5.2
 // @author Mircea Mihalea
 // @license MIT
 // @copyright 2018, mihalea (https://openuserjs.org/users/mihalea)
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-  console.log("Overriding OCA switchVideoToId");
+  console.log("Overriding OCA's switchVideoToId");
   unsafeWindow.OCA.SpreedMe.speakers.switchVideoToId = function (id) { return; };
   
   setInterval(function() {
