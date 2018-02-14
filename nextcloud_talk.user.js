@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Nextcloud Talk - Better call layout
 // @description Better nextcloud talk user interface for group calling, copying skype
-// @version  1.5.2
+// @version  1.6
 // @author Mircea Mihalea
 // @license MIT
 // @copyright 2018, mihalea (https://openuserjs.org/users/mihalea)
