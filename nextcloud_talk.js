@@ -8,6 +8,8 @@
 // @grant    none
 // @require       http://code.jquery.com/jquery-3.3.1.min.js
 // @include  https://ds.mihalea.ro/call/*
+// @updateURL https://raw.githubusercontent.com/mihalea/userscripts/master/nextcloud_talk.js
+// @downloadURL https://raw.githubusercontent.com/mihalea/userscripts/master/nextcloud_talk.js
 // ==/UserScript==
 
 $(document).ready(function() {
