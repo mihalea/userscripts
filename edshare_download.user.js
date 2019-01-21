@@ -1,5 +1,9 @@
 // ==UserScript==
 // @name        EdShare Download
+// @description Automatic link translation for edshare downloads
+// @version  2
+// @author Mircea Mihalea
+// @copyright 2018, mihalea (https://openuserjs.org/users/mihalea)
 // @namespace   ro.mihalea.edshare
 // @license MIT
 // @description Automatically redirects to the download link
