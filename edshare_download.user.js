@@ -6,9 +6,7 @@
 // @license MIT
 // @copyright 2018, mihalea (https://openuserjs.org/users/mihalea)
 // @namespace   ro.mihalea.edshare
-// @description Automatically redirects to the download link
 // @include     https://secure.ecs.soton.ac.uk/*
-// @version     2
 // @grant       GM.xmlHttpRequest
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // ==/UserScript==
