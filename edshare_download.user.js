@@ -3,9 +3,9 @@
 // @description Automatic link translation for edshare downloads
 // @version  2
 // @author Mircea Mihalea
+// @license MIT
 // @copyright 2018, mihalea (https://openuserjs.org/users/mihalea)
 // @namespace   ro.mihalea.edshare
-// @license MIT
 // @description Automatically redirects to the download link
 // @include     https://secure.ecs.soton.ac.uk/*
 // @version     2
