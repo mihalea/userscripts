@@ -3,26 +3,38 @@
 // @namespace   ro.mihalea.edshare
 // @description Automatically redirects to the download link
 // @include     https://secure.ecs.soton.ac.uk/*
-// @version     1.1.1
-// @grant GM_xmlhttpRequest
+// @version     2
+// @grant       GM.xmlHttpRequest
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // ==/UserScript==
 
 $(document).ready(function () {
+  console.log("Edshare loaded");
   $('a').click(function (e) {
     var anchor = $(this);
     var url = anchor.attr('href');
-    if (/^(http:\/\/)?(www.)?edshare.soton.ac.uk\/[0-9]+\/$/.test(url)) {
+    
+    if (/(https?:\/\/)?(www\.)?edshare\.soton\.ac\.uk\/[0-9]+\/?/.test(url)) {
+      console.log("Found edshare link");
+      console.log(url);
+      
       e.preventDefault();
-      GM_xmlhttpRequest({
+      
+      GM.xmlHttpRequest({
         method: 'GET',
         url: url,
         onload: function (page) {
-          var link = $(page.response).find('#ep_inplace_docinfo_0').find('a').attr('href');
-          if (link) {
-            anchor.attr('href', link);
-            window.location.href = link;
-          }
+          console.log("Page loaded");
+						$(page.response).find('#ep_inplace_docinfo_0').find('a').each(function (index) {
+							link = $(this).attr('href');
+              
+              
+              if(/edshare/.test(link)) {
+              	anchor.attr('href', link);
+								window.location.href = link;
+              }
+          });
+
         }
       });
     }
