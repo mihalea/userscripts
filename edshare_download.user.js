@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        EdShare Download
 // @namespace   ro.mihalea.edshare
+// @license MIT
 // @description Automatically redirects to the download link
 // @include     https://secure.ecs.soton.ac.uk/*
 // @version     2
